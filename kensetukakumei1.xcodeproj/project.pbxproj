@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		610D4C0724D6A73C004BF011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D4C0624D6A73C004BF011 /* AppDelegate.swift */; };
+		610D4C0924D6A73C004BF011 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D4C0824D6A73C004BF011 /* SceneDelegate.swift */; };
+		610D4C0E24D6A73C004BF011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610D4C0C24D6A73C004BF011 /* Main.storyboard */; };
+		610D4C1024D6A73C004BF011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610D4C0F24D6A73C004BF011 /* Assets.xcassets */; };
+		610D4C1324D6A73C004BF011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610D4C1124D6A73C004BF011 /* LaunchScreen.storyboard */; };
+		610D4C1B24D6A76C004BF011 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D4C1A24D6A76C004BF011 /* LoginViewController.swift */; };
+		610D4C1D24D6A77C004BF011 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D4C1C24D6A77C004BF011 /* HomeViewController.swift */; };
+		610D4C1F24D6A7A9004BF011 /* PostMatterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D4C1E24D6A7A9004BF011 /* PostMatterViewController.swift */; };
+		610D4C2124D6A847004BF011 /* SetProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D4C2024D6A847004BF011 /* SetProfileViewController.swift */; };
+		610D4C2324D6A860004BF011 /* SendDMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D4C2224D6A860004BF011 /* SendDMViewController.swift */; };
+		610D4C2524D6E887004BF011 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D4C2424D6E887004BF011 /* TabBarController.swift */; };
+		610D4C2724D6F58F004BF011 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 610D4C2624D6F58F004BF011 /* GoogleService-Info.plist */; };
+		6117EB4524DBF9D100CCE134 /* DeaiHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6117EB4424DBF9D100CCE134 /* DeaiHomeViewController.swift */; };
+		6117EB4724DBFA0A00CCE134 /* OenHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6117EB4624DBFA0A00CCE134 /* OenHomeViewController.swift */; };
+		6117EB4924DBFA2400CCE134 /* UkeoiHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6117EB4824DBFA2400CCE134 /* UkeoiHomeViewController.swift */; };
+		6117EB4C24DC17CB00CCE134 /* PostDeaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6117EB4B24DC17CB00CCE134 /* PostDeaiViewController.swift */; };
+		6117EB4E24DC17E000CCE134 /* PostOenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6117EB4D24DC17E000CCE134 /* PostOenViewController.swift */; };
+		6117EB5024DC17F800CCE134 /* PostUkeoiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6117EB4F24DC17F800CCE134 /* PostUkeoiViewController.swift */; };
+		611E311E24ECB9A700E130C6 /* YouseiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E311D24ECB9A700E130C6 /* YouseiViewController.swift */; };
+		611E312024ECB9BA00E130C6 /* JyudakuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E311F24ECB9BA00E130C6 /* JyudakuViewController.swift */; };
+		6135B2E024EE6FA8007CCABD /* YouseiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135B2DE24EE6FA8007CCABD /* YouseiTableViewCell.swift */; };
+		6135B2E124EE6FA8007CCABD /* YouseiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6135B2DF24EE6FA8007CCABD /* YouseiTableViewCell.xib */; };
+		6135B2E524EE7EF5007CCABD /* JyudakuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135B2E324EE7EF5007CCABD /* JyudakuTableViewCell.swift */; };
+		6135B2E624EE7EF5007CCABD /* JyudakuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6135B2E424EE7EF5007CCABD /* JyudakuTableViewCell.xib */; };
+		613B361E24FB5EA300B1739F /* SendDMOenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613B361D24FB5EA300B1739F /* SendDMOenViewController.swift */; };
+		615B284224E162F400896D8D /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B284124E162F400896D8D /* ProfileData.swift */; };
+		6163961924F3826000EC752D /* SendDMUkeoiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163961824F3826000EC752D /* SendDMUkeoiViewController.swift */; };
+		6163961B24F3A65000EC752D /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163961A24F3A65000EC752D /* ChatListViewController.swift */; };
+		6163961E24F3A6E900EC752D /* ChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163961C24F3A6E900EC752D /* ChatListTableViewCell.swift */; };
+		6163961F24F3A6E900EC752D /* ChatListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6163961D24F3A6E900EC752D /* ChatListTableViewCell.xib */; };
+		6163962124F3B36100EC752D /* ChatRoomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163962024F3B36100EC752D /* ChatRoomData.swift */; };
+		6163962724F6141800EC752D /* UsersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163962624F6141800EC752D /* UsersData.swift */; };
+		619CF9EC24DD70DE00CA7F0F /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CF9EB24DD70DE00CA7F0F /* Const.swift */; };
+		619CF9EE24DD852B00CA7F0F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CF9ED24DD852B00CA7F0F /* SettingViewController.swift */; };
+		61A476AC24E90B4B0000E0D3 /* InspectableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A476AB24E90B4B0000E0D3 /* InspectableTextView.swift */; };
+		61AC2FC524ECE39600F71987 /* returnCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AC2FC424ECE39600F71987 /* returnCommentViewController.swift */; };
+		61C031AB24FB916200C59DE5 /* SendDMDeaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C031AA24FB916200C59DE5 /* SendDMDeaiViewController.swift */; };
+		61C031B124FBC04500C59DE5 /* ChatRoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C031AF24FBC04500C59DE5 /* ChatRoomTableViewCell.swift */; };
+		61C031B224FBC04500C59DE5 /* ChatRoomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61C031B024FBC04500C59DE5 /* ChatRoomTableViewCell.xib */; };
+		61D0BECC24EE399700457664 /* PostUkeoiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D0BECB24EE399700457664 /* PostUkeoiData.swift */; };
+		61D0BED024EE3AAB00457664 /* PostUkeoiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D0BECE24EE3AAB00457664 /* PostUkeoiTableViewCell.swift */; };
+		61D0BED124EE3AAB00457664 /* PostUkeoiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61D0BECF24EE3AAB00457664 /* PostUkeoiTableViewCell.xib */; };
+		61F095E024ED4B3400955B94 /* PostOenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F095DF24ED4B3400955B94 /* PostOenData.swift */; };
+		61F095E324ED4FD700955B94 /* PostOenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F095E124ED4FD700955B94 /* PostOenTableViewCell.swift */; };
+		61F095E424ED4FD700955B94 /* PostOenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F095E224ED4FD700955B94 /* PostOenTableViewCell.xib */; };
+		61FB411E24ECC24300935D41 /* PostDeaiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FB411D24ECC24300935D41 /* PostDeaiData.swift */; };
+		61FB412324ECC79100935D41 /* PostDeaiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FB412124ECC79100935D41 /* PostDeaiTableViewCell.swift */; };
+		61FB412424ECC79100935D41 /* PostDeaiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61FB412224ECC79100935D41 /* PostDeaiTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		610D4C0324D6A73C004BF011 /* kensetukakumei1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kensetukakumei1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		610D4C0624D6A73C004BF011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		610D4C0824D6A73C004BF011 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		610D4C0D24D6A73C004BF011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		610D4C0F24D6A73C004BF011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		610D4C1224D6A73C004BF011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		610D4C1424D6A73C004BF011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610D4C1A24D6A76C004BF011 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		610D4C1C24D6A77C004BF011 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		610D4C1E24D6A7A9004BF011 /* PostMatterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMatterViewController.swift; sourceTree = "<group>"; };
+		610D4C2024D6A847004BF011 /* SetProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetProfileViewController.swift; sourceTree = "<group>"; };
+		610D4C2224D6A860004BF011 /* SendDMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDMViewController.swift; sourceTree = "<group>"; };
+		610D4C2424D6E887004BF011 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		610D4C2624D6F58F004BF011 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6117EB4424DBF9D100CCE134 /* DeaiHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeaiHomeViewController.swift; sourceTree = "<group>"; };
+		6117EB4624DBFA0A00CCE134 /* OenHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OenHomeViewController.swift; sourceTree = "<group>"; };
+		6117EB4824DBFA2400CCE134 /* UkeoiHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UkeoiHomeViewController.swift; sourceTree = "<group>"; };
+		6117EB4B24DC17CB00CCE134 /* PostDeaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDeaiViewController.swift; sourceTree = "<group>"; };
+		6117EB4D24DC17E000CCE134 /* PostOenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostOenViewController.swift; sourceTree = "<group>"; };
+		6117EB4F24DC17F800CCE134 /* PostUkeoiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUkeoiViewController.swift; sourceTree = "<group>"; };
+		611E311D24ECB9A700E130C6 /* YouseiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouseiViewController.swift; sourceTree = "<group>"; };
+		611E311F24ECB9BA00E130C6 /* JyudakuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JyudakuViewController.swift; sourceTree = "<group>"; };
+		6135B2DE24EE6FA8007CCABD /* YouseiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouseiTableViewCell.swift; sourceTree = "<group>"; };
+		6135B2DF24EE6FA8007CCABD /* YouseiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YouseiTableViewCell.xib; sourceTree = "<group>"; };
+		6135B2E324EE7EF5007CCABD /* JyudakuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JyudakuTableViewCell.swift; sourceTree = "<group>"; };
+		6135B2E424EE7EF5007CCABD /* JyudakuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JyudakuTableViewCell.xib; sourceTree = "<group>"; };
+		613B361D24FB5EA300B1739F /* SendDMOenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDMOenViewController.swift; sourceTree = "<group>"; };
+		615B284124E162F400896D8D /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		6163961824F3826000EC752D /* SendDMUkeoiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDMUkeoiViewController.swift; sourceTree = "<group>"; };
+		6163961A24F3A65000EC752D /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		6163961C24F3A6E900EC752D /* ChatListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTableViewCell.swift; sourceTree = "<group>"; };
+		6163961D24F3A6E900EC752D /* ChatListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatListTableViewCell.xib; sourceTree = "<group>"; };
+		6163962024F3B36100EC752D /* ChatRoomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomData.swift; sourceTree = "<group>"; };
+		6163962624F6141800EC752D /* UsersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersData.swift; sourceTree = "<group>"; };
+		619CF9EB24DD70DE00CA7F0F /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		619CF9ED24DD852B00CA7F0F /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		61A476AB24E90B4B0000E0D3 /* InspectableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectableTextView.swift; sourceTree = "<group>"; };
+		61AC2FC424ECE39600F71987 /* returnCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = returnCommentViewController.swift; sourceTree = "<group>"; };
+		61C031AA24FB916200C59DE5 /* SendDMDeaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDMDeaiViewController.swift; sourceTree = "<group>"; };
+		61C031AF24FBC04500C59DE5 /* ChatRoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomTableViewCell.swift; sourceTree = "<group>"; };
+		61C031B024FBC04500C59DE5 /* ChatRoomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatRoomTableViewCell.xib; sourceTree = "<group>"; };
+		61D0BECB24EE399700457664 /* PostUkeoiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUkeoiData.swift; sourceTree = "<group>"; };
+		61D0BECE24EE3AAB00457664 /* PostUkeoiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUkeoiTableViewCell.swift; sourceTree = "<group>"; };
+		61D0BECF24EE3AAB00457664 /* PostUkeoiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostUkeoiTableViewCell.xib; sourceTree = "<group>"; };
+		61F095DF24ED4B3400955B94 /* PostOenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostOenData.swift; sourceTree = "<group>"; };
+		61F095E124ED4FD700955B94 /* PostOenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostOenTableViewCell.swift; sourceTree = "<group>"; };
+		61F095E224ED4FD700955B94 /* PostOenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostOenTableViewCell.xib; sourceTree = "<group>"; };
+		61FB411D24ECC24300935D41 /* PostDeaiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDeaiData.swift; sourceTree = "<group>"; };
+		61FB412124ECC79100935D41 /* PostDeaiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDeaiTableViewCell.swift; sourceTree = "<group>"; };
+		61FB412224ECC79100935D41 /* PostDeaiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostDeaiTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		610D4C0024D6A73C004BF011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		569525176BB64F47DE18FB92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6101F30F24F0C1CB00A6DAE1 /* JyudakuTableViewCollection */ = {
+			isa = PBXGroup;
+			children = (
+				6135B2E424EE7EF5007CCABD /* JyudakuTableViewCell.xib */,
+				6135B2E324EE7EF5007CCABD /* JyudakuTableViewCell.swift */,
+			);
+			name = JyudakuTableViewCollection;
+			sourceTree = "<group>";
+		};
+		610D4BFA24D6A73C004BF011 = {
+			isa = PBXGroup;
+			children = (
+				610D4C0524D6A73C004BF011 /* kensetukakumei1 */,
+				610D4C0424D6A73C004BF011 /* Products */,
+				569525176BB64F47DE18FB92 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		610D4C0424D6A73C004BF011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				610D4C0324D6A73C004BF011 /* kensetukakumei1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		610D4C0524D6A73C004BF011 /* kensetukakumei1 */ = {
+			isa = PBXGroup;
+			children = (
+				610D4C0624D6A73C004BF011 /* AppDelegate.swift */,
+				610D4C0824D6A73C004BF011 /* SceneDelegate.swift */,
+				610D4C1A24D6A76C004BF011 /* LoginViewController.swift */,
+				610D4C1C24D6A77C004BF011 /* HomeViewController.swift */,
+				619CF9EB24DD70DE00CA7F0F /* Const.swift */,
+				6135B2DD24EE6243007CCABD /* PostDataCollection */,
+				6117EB4A24DBFA3E00CCE134 /* HomeCollection */,
+				6117EB5124DC180300CCE134 /* PostCollection */,
+				610D4C2024D6A847004BF011 /* SetProfileViewController.swift */,
+				619CF9ED24DD852B00CA7F0F /* SettingViewController.swift */,
+				610D4C1E24D6A7A9004BF011 /* PostMatterViewController.swift */,
+				610D4C2424D6E887004BF011 /* TabBarController.swift */,
+				61A476AB24E90B4B0000E0D3 /* InspectableTextView.swift */,
+				61AC2FC624ED0E5F00F71987 /* DeaiTableViewCollection */,
+				61F095E624EE110700955B94 /* OenTableViewCollection */,
+				6135B2DC24EE5EC1007CCABD /* UkeoiTableViewCollection */,
+				6135B2E224EE7E45007CCABD /* YouseiTableViewCollection */,
+				6101F30F24F0C1CB00A6DAE1 /* JyudakuTableViewCollection */,
+				613B361A24FB5C4E00B1739F /* ChatListTableViewCollection */,
+				61C031AE24FBB70500C59DE5 /* SendDMCollection */,
+				6163961A24F3A65000EC752D /* ChatListViewController.swift */,
+				610D4C2224D6A860004BF011 /* SendDMViewController.swift */,
+				61C031AF24FBC04500C59DE5 /* ChatRoomTableViewCell.swift */,
+				61C031B024FBC04500C59DE5 /* ChatRoomTableViewCell.xib */,
+				610D4C0C24D6A73C004BF011 /* Main.storyboard */,
+				610D4C0F24D6A73C004BF011 /* Assets.xcassets */,
+				610D4C1124D6A73C004BF011 /* LaunchScreen.storyboard */,
+				610D4C1424D6A73C004BF011 /* Info.plist */,
+				610D4C2624D6F58F004BF011 /* GoogleService-Info.plist */,
+			);
+			path = kensetukakumei1;
+			sourceTree = "<group>";
+		};
+		6117EB4A24DBFA3E00CCE134 /* HomeCollection */ = {
+			isa = PBXGroup;
+			children = (
+				6117EB4624DBFA0A00CCE134 /* OenHomeViewController.swift */,
+				611E311A24ECB93900E130C6 /* youseiJyudakuArea */,
+				6117EB4424DBF9D100CCE134 /* DeaiHomeViewController.swift */,
+				6117EB4824DBFA2400CCE134 /* UkeoiHomeViewController.swift */,
+			);
+			name = HomeCollection;
+			sourceTree = "<group>";
+		};
+		6117EB5124DC180300CCE134 /* PostCollection */ = {
+			isa = PBXGroup;
+			children = (
+				6117EB4B24DC17CB00CCE134 /* PostDeaiViewController.swift */,
+				6117EB4D24DC17E000CCE134 /* PostOenViewController.swift */,
+				6117EB4F24DC17F800CCE134 /* PostUkeoiViewController.swift */,
+			);
+			path = PostCollection;
+			sourceTree = "<group>";
+		};
+		611E311A24ECB93900E130C6 /* youseiJyudakuArea */ = {
+			isa = PBXGroup;
+			children = (
+				611E311D24ECB9A700E130C6 /* YouseiViewController.swift */,
+				611E311F24ECB9BA00E130C6 /* JyudakuViewController.swift */,
+			);
+			path = youseiJyudakuArea;
+			sourceTree = "<group>";
+		};
+		6135B2DC24EE5EC1007CCABD /* UkeoiTableViewCollection */ = {
+			isa = PBXGroup;
+			children = (
+				61D0BECF24EE3AAB00457664 /* PostUkeoiTableViewCell.xib */,
+				61D0BECE24EE3AAB00457664 /* PostUkeoiTableViewCell.swift */,
+			);
+			name = UkeoiTableViewCollection;
+			sourceTree = "<group>";
+		};
+		6135B2DD24EE6243007CCABD /* PostDataCollection */ = {
+			isa = PBXGroup;
+			children = (
+				615B284124E162F400896D8D /* ProfileData.swift */,
+				6163962624F6141800EC752D /* UsersData.swift */,
+				61FB411D24ECC24300935D41 /* PostDeaiData.swift */,
+				61D0BECB24EE399700457664 /* PostUkeoiData.swift */,
+				61F095DF24ED4B3400955B94 /* PostOenData.swift */,
+				6163962024F3B36100EC752D /* ChatRoomData.swift */,
+			);
+			path = PostDataCollection;
+			sourceTree = "<group>";
+		};
+		6135B2E224EE7E45007CCABD /* YouseiTableViewCollection */ = {
+			isa = PBXGroup;
+			children = (
+				6135B2DE24EE6FA8007CCABD /* YouseiTableViewCell.swift */,
+				6135B2DF24EE6FA8007CCABD /* YouseiTableViewCell.xib */,
+			);
+			name = YouseiTableViewCollection;
+			sourceTree = "<group>";
+		};
+		613B361A24FB5C4E00B1739F /* ChatListTableViewCollection */ = {
+			isa = PBXGroup;
+			children = (
+				6163961C24F3A6E900EC752D /* ChatListTableViewCell.swift */,
+				6163961D24F3A6E900EC752D /* ChatListTableViewCell.xib */,
+			);
+			name = ChatListTableViewCollection;
+			sourceTree = "<group>";
+		};
+		61AC2FC624ED0E5F00F71987 /* DeaiTableViewCollection */ = {
+			isa = PBXGroup;
+			children = (
+				61AC2FC424ECE39600F71987 /* returnCommentViewController.swift */,
+				61FB412124ECC79100935D41 /* PostDeaiTableViewCell.swift */,
+				61FB412224ECC79100935D41 /* PostDeaiTableViewCell.xib */,
+			);
+			name = DeaiTableViewCollection;
+			sourceTree = "<group>";
+		};
+		61C031AE24FBB70500C59DE5 /* SendDMCollection */ = {
+			isa = PBXGroup;
+			children = (
+				6163961824F3826000EC752D /* SendDMUkeoiViewController.swift */,
+				61C031AA24FB916200C59DE5 /* SendDMDeaiViewController.swift */,
+				613B361D24FB5EA300B1739F /* SendDMOenViewController.swift */,
+			);
+			name = SendDMCollection;
+			sourceTree = "<group>";
+		};
+		61F095E624EE110700955B94 /* OenTableViewCollection */ = {
+			isa = PBXGroup;
+			children = (
+				61F095E124ED4FD700955B94 /* PostOenTableViewCell.swift */,
+				61F095E224ED4FD700955B94 /* PostOenTableViewCell.xib */,
+			);
+			path = OenTableViewCollection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		610D4C0224D6A73C004BF011 /* kensetukakumei1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610D4C1724D6A73C004BF011 /* Build configuration list for PBXNativeTarget "kensetukakumei1" */;
+			buildPhases = (
+				610D4BFF24D6A73C004BF011 /* Sources */,
+				610D4C0024D6A73C004BF011 /* Frameworks */,
+				610D4C0124D6A73C004BF011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kensetukakumei1;
+			productName = kensetukakumei;
+			productReference = 610D4C0324D6A73C004BF011 /* kensetukakumei1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		610D4BFB24D6A73C004BF011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = tsuyoshi.saito;
+				TargetAttributes = {
+					610D4C0224D6A73C004BF011 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 610D4BFE24D6A73C004BF011 /* Build configuration list for PBXProject "kensetukakumei1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 610D4BFA24D6A73C004BF011;
+			productRefGroup = 610D4C0424D6A73C004BF011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				610D4C0224D6A73C004BF011 /* kensetukakumei1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		610D4C0124D6A73C004BF011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610D4C1324D6A73C004BF011 /* LaunchScreen.storyboard in Resources */,
+				6135B2E124EE6FA8007CCABD /* YouseiTableViewCell.xib in Resources */,
+				610D4C2724D6F58F004BF011 /* GoogleService-Info.plist in Resources */,
+				610D4C1024D6A73C004BF011 /* Assets.xcassets in Resources */,
+				6135B2E624EE7EF5007CCABD /* JyudakuTableViewCell.xib in Resources */,
+				6163961F24F3A6E900EC752D /* ChatListTableViewCell.xib in Resources */,
+				610D4C0E24D6A73C004BF011 /* Main.storyboard in Resources */,
+				61F095E424ED4FD700955B94 /* PostOenTableViewCell.xib in Resources */,
+				61C031B224FBC04500C59DE5 /* ChatRoomTableViewCell.xib in Resources */,
+				61FB412424ECC79100935D41 /* PostDeaiTableViewCell.xib in Resources */,
+				61D0BED124EE3AAB00457664 /* PostUkeoiTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		610D4BFF24D6A73C004BF011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D0BECC24EE399700457664 /* PostUkeoiData.swift in Sources */,
+				61A476AC24E90B4B0000E0D3 /* InspectableTextView.swift in Sources */,
+				61C031AB24FB916200C59DE5 /* SendDMDeaiViewController.swift in Sources */,
+				610D4C1D24D6A77C004BF011 /* HomeViewController.swift in Sources */,
+				61C031B124FBC04500C59DE5 /* ChatRoomTableViewCell.swift in Sources */,
+				611E311E24ECB9A700E130C6 /* YouseiViewController.swift in Sources */,
+				615B284224E162F400896D8D /* ProfileData.swift in Sources */,
+				6117EB4924DBFA2400CCE134 /* UkeoiHomeViewController.swift in Sources */,
+				610D4C1B24D6A76C004BF011 /* LoginViewController.swift in Sources */,
+				6117EB4524DBF9D100CCE134 /* DeaiHomeViewController.swift in Sources */,
+				61F095E024ED4B3400955B94 /* PostOenData.swift in Sources */,
+				6163961E24F3A6E900EC752D /* ChatListTableViewCell.swift in Sources */,
+				61D0BED024EE3AAB00457664 /* PostUkeoiTableViewCell.swift in Sources */,
+				619CF9EE24DD852B00CA7F0F /* SettingViewController.swift in Sources */,
+				6163962724F6141800EC752D /* UsersData.swift in Sources */,
+				6117EB4724DBFA0A00CCE134 /* OenHomeViewController.swift in Sources */,
+				61AC2FC524ECE39600F71987 /* returnCommentViewController.swift in Sources */,
+				611E312024ECB9BA00E130C6 /* JyudakuViewController.swift in Sources */,
+				610D4C2524D6E887004BF011 /* TabBarController.swift in Sources */,
+				61FB411E24ECC24300935D41 /* PostDeaiData.swift in Sources */,
+				6135B2E524EE7EF5007CCABD /* JyudakuTableViewCell.swift in Sources */,
+				6163962124F3B36100EC752D /* ChatRoomData.swift in Sources */,
+				6163961B24F3A65000EC752D /* ChatListViewController.swift in Sources */,
+				61FB412324ECC79100935D41 /* PostDeaiTableViewCell.swift in Sources */,
+				610D4C2124D6A847004BF011 /* SetProfileViewController.swift in Sources */,
+				610D4C0724D6A73C004BF011 /* AppDelegate.swift in Sources */,
+				610D4C1F24D6A7A9004BF011 /* PostMatterViewController.swift in Sources */,
+				6163961924F3826000EC752D /* SendDMUkeoiViewController.swift in Sources */,
+				6117EB4C24DC17CB00CCE134 /* PostDeaiViewController.swift in Sources */,
+				610D4C0924D6A73C004BF011 /* SceneDelegate.swift in Sources */,
+				610D4C2324D6A860004BF011 /* SendDMViewController.swift in Sources */,
+				61F095E324ED4FD700955B94 /* PostOenTableViewCell.swift in Sources */,
+				619CF9EC24DD70DE00CA7F0F /* Const.swift in Sources */,
+				6135B2E024EE6FA8007CCABD /* YouseiTableViewCell.swift in Sources */,
+				6117EB4E24DC17E000CCE134 /* PostOenViewController.swift in Sources */,
+				6117EB5024DC17F800CCE134 /* PostUkeoiViewController.swift in Sources */,
+				613B361E24FB5EA300B1739F /* SendDMOenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		610D4C0C24D6A73C004BF011 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610D4C0D24D6A73C004BF011 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		610D4C1124D6A73C004BF011 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610D4C1224D6A73C004BF011 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		610D4C1524D6A73C004BF011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		610D4C1624D6A73C004BF011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		610D4C1824D6A73C004BF011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L6FXJD6KD;
+				INFOPLIST_FILE = kensetukakumei1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikaikinto.tsuyoshi.saito.kensetukakumei1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		610D4C1924D6A73C004BF011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L6FXJD6KD;
+				INFOPLIST_FILE = kensetukakumei1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikaikinto.tsuyoshi.saito.kensetukakumei1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		610D4BFE24D6A73C004BF011 /* Build configuration list for PBXProject "kensetukakumei1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610D4C1524D6A73C004BF011 /* Debug */,
+				610D4C1624D6A73C004BF011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610D4C1724D6A73C004BF011 /* Build configuration list for PBXNativeTarget "kensetukakumei1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610D4C1824D6A73C004BF011 /* Debug */,
+				610D4C1924D6A73C004BF011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 610D4BFB24D6A73C004BF011 /* Project object */;
+}
